@@ -1,0 +1,8 @@
+[gd_resource type="BankAsset" format=3 uid="uid://dg70efeghhqhp"]
+
+[resource]
+file_path = "res://banks/Test.bank"
+modified_time = 1697277379
+path = "bank:/Test"
+guid = "{d65cb666-8c3d-46f7-9732-21ad1e8b1802}"
+name = "Test"

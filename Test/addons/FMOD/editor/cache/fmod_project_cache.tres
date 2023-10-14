@@ -1,0 +1,61 @@
+[gd_resource type="ProjectCache" load_steps=7 format=3 uid="uid://cn5dxsqu3ddt5"]
+
+[ext_resource type="BankAsset" uid="uid://rm13s57ahnac" path="res://addons/FMOD/editor/resources/banks/{deb916fa-bbef-41a6-a8a5-7d3279cbb2d7}.tres" id="1_a1rta"]
+[ext_resource type="BankAsset" uid="uid://da1bh7ijmtdsq" path="res://addons/FMOD/editor/resources/banks/{46a4362e-ca94-0de4-2eec-f7cc8838b44f}.tres" id="2_6vqij"]
+[ext_resource type="BankAsset" uid="uid://dg70efeghhqhp" path="res://addons/FMOD/editor/resources/banks/{d65cb666-8c3d-46f7-9732-21ad1e8b1802}.tres" id="3_l57jy"]
+[ext_resource type="BusAsset" uid="uid://dnqwe1v15dnlq" path="res://addons/FMOD/editor/resources/busses/{547d4f4f-28f1-427f-bd4b-ca9e3bb6cf6a}.tres" id="4_nnuof"]
+[ext_resource type="BusAsset" uid="uid://daceq13hfx2hl" path="res://addons/FMOD/editor/resources/busses/{6ec9d6cb-bf1c-412f-a0e8-737044e4e53e}.tres" id="5_pyw0r"]
+[ext_resource type="EventAsset" uid="uid://dkoupjc6375m6" path="res://addons/FMOD/editor/resources/events/{def73127-e74a-4804-b112-ab36dc2e336b}.tres" id="6_kop8b"]
+
+[resource]
+banks = {
+"{46a4362e-ca94-0de4-2eec-f7cc8838b44f}": ExtResource("2_6vqij"),
+"{d65cb666-8c3d-46f7-9732-21ad1e8b1802}": ExtResource("3_l57jy"),
+"{deb916fa-bbef-41a6-a8a5-7d3279cbb2d7}": ExtResource("1_a1rta")
+}
+events = {
+"{def73127-e74a-4804-b112-ab36dc2e336b}": ExtResource("6_kop8b")
+}
+busses = {
+"{547d4f4f-28f1-427f-bd4b-ca9e3bb6cf6a}": ExtResource("4_nnuof"),
+"{6ec9d6cb-bf1c-412f-a0e8-737044e4e53e}": ExtResource("5_pyw0r")
+}
+bank_tree = [{
+"children": [],
+"item_type": 3,
+"node_name": "Master",
+"path": "bank:/Master",
+"resource": ExtResource("1_a1rta")
+}, {
+"children": [],
+"item_type": 3,
+"node_name": "Master.strings",
+"path": "bank:/Master.strings",
+"resource": ExtResource("2_6vqij")
+}, {
+"children": [],
+"item_type": 3,
+"node_name": "Test",
+"path": "bank:/Test",
+"resource": ExtResource("3_l57jy")
+}]
+event_tree = [{
+"children": [],
+"item_type": 1,
+"node_name": "Dissolution (Tier 1)",
+"path": "event:/Dissolution (Tier 1)",
+"resource": ExtResource("6_kop8b")
+}]
+bus_tree = [{
+"children": [{
+"children": [],
+"item_type": 4,
+"node_name": "Reverb",
+"path": "bus:/Reverb",
+"resource": ExtResource("5_pyw0r")
+}],
+"item_type": 4,
+"node_name": "bus:",
+"path": "bus:/",
+"resource": ExtResource("4_nnuof")
+}]
