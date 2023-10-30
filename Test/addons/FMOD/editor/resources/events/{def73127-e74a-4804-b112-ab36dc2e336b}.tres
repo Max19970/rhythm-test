@@ -1,9 +1,0 @@
-[gd_resource type="EventAsset" format=3 uid="uid://dkoupjc6375m6"]
-
-[resource]
-is_oneshot = true
-min_distance = 1.0
-max_distance = 20.0
-path = "event:/Dissolution (Tier 1)"
-guid = "{def73127-e74a-4804-b112-ab36dc2e336b}"
-name = "Dissolution (Tier 1)"
